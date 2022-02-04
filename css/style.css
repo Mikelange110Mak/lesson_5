@@ -1,0 +1,140 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Black.woff2") format("woff2"), url("../fonts/AlegreyaSC-Black.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Bold.woff2") format("woff2"), url("../fonts/AlegreyaSC-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Medium.woff2") format("woff2"), url("../fonts/AlegreyaSC-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Regular.woff2") format("woff2"), url("../fonts/AlegreyaSC-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: AlegreyaSC;
+   src: url("../fonts/AlegreyaSC-Italic.woff2") format("woff2"), url("../fonts/AlegreyaSC-Italic.woff") format("woff");
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+body{
+   font-family: AlegreyaSC;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.header-block{
+   background-color: rgb(102, 191, 194);
+   height: 50px;
+   font-size: 25px;
+   padding-top: 8px;
+   text-align: center;
+}
+.header-block p{
+   display: inline;
+}
+.spirit-logo{
+   width: 35px;
+   height: 35px;
+   margin-left: 15px;
+}
+main{
+   margin: 0 30px;
+}
+main h1{
+   max-width: 600px;
+   margin: 30px auto 50px;
+   font-size: 30px;
+   text-shadow: 8px 6px 5px rgba(150, 150, 150, 1);
+}
+
+main img{
+   max-width: 500px;
+   margin: 0 0 40px 0;
+}
+.main-intro .main-text{
+   font-style: italic;
+   line-height: 1.7;
+   padding: 10% 0 0 0;
+   margin: 0 0 0 2%;
+   max-width: 700px;
+   display: inline-block;
+}
+.subtitle{
+   font-family: "Montserrat";
+   font-size: 19px;
+   font-weight: 700;
+   margin: 0 0 10px 0;
+}
+.main-second .main-text{
+   padding: 20px;
+}
+.list{
+   width: 400px;
+   height: 150px;
+   overflow: auto;
+}
+.list li{
+   margin: 0 0 10px 0;
+}
+.members-ts{
+   overflow: hidden;
+   margin-top: 2%;
+   min-width: 750px;
+   height: 270px;
+}
+.img-members{
+   width: 200px;
+   height: 200px;
+}
+.member{
+   display: inline-block;
+   box-sizing: content-box;
+   padding: 10px;
+   margin: 0 10px 0 0;
+   width: 210px;
+   height: 210px;
+}
+.members-text{
+   margin: -30px 0 0 0;;
+}
+.members-text span{
+   color:rgb(99, 25, 41);
+   font-weight: 700;
+}
+.deleted-block{
+   display: none;
+}
+.footer-container{
+   background-color: rgb(102, 191, 194);
+   height: 50px;
+}
+.footer-text{
+   padding-top: 5px;
+   font-weight: 700;
+   text-align: center;
+}
+.sources{
+   text-align: center;
+   height: 35px;
+}
